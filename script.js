@@ -12,10 +12,10 @@ function calculoMedia() {
 
   if (media >= 7 && media < 10) {
     document.getElementById("media").innerHTML = " ";
-    document.getElementById("media").innerHTML = `O aluno está aprovado.`;
-  } else if (media == 6) {
+    document.getElementById("media").innerHTML = `Uau!!! mandou bem, aprovadíssimo.`;
+  } else if (media >= 6) {
     document.getElementById("media").innerHTML = " ";
-    document.getElementById("media").innerHTML = `O aluno está em recuperação.`;
+    document.getElementById("media").innerHTML = `O aluno está aprovado.`;
   } else if (media < 6) {
     document.getElementById("media").innerHTML = " ";
     document.getElementById("media").innerHTML = `O aluno está reprovado`;
