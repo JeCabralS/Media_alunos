@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Média</title>
+</head>
+<body>
+  
+
+  <h1 class="title">Média de Alunos</h1>
+
+  <form id="formulario">
+    <label>Qual seu nome?</label>
+    <input id="nome" type="text" placeholder="Digite seu nome" />
+    <label>Digite a primeira nota</label>
+    <input id="num1" type="number" placeholder="Digite sua primeira nota">
+    <label>Digite a segunda nota</label>
+    <input id="num2" type="number" placeholder="Digite sua segunda nota">
+    <label>Digite a terceira nota</label>
+    <input id="num3" type="number" placeholder="Digite sua terceira nota">
+  </form>
+  <button id="calcularMedia" onclick="calculoMedia()">Calcular média</button>
+  <button id="limpar" onclick="limparMedia()">limpar</button>
+
+  <div id="media"></div>
+
+
+
+  <img src="./img/alun.jpg" alt="">
+
+  <script src="./script.js"></script>
+</body>
+</html>
